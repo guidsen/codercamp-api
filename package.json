@@ -1,0 +1,19 @@
+{
+  "name": "codercamp-api",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "serve": "nodemon dist/index.js",
+    "dev": "tsc --watch & npm run serve"
+  },
+  "dependencies": {
+    "feedparser": "^2.2.1",
+    "open-graph-scraper": "^2.5.4",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.17",
+    "nodemon": "^1.11.0"
+  }
+}
